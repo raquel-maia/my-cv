@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.information-column {
+  padding: 40px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.information-column hr {
+  border: none;
+  border-bottom: 1px solid #7e047e;
+  margin-top: 18px;
+}
+
+.information-column img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid #bf40bf;
+  margin-bottom: 18px;
+}
+
+.information-column h3 {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.information-column ul {
+  list-style-type: none;
+}
+
+.information-column li {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.contact-description a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact-description i {
+  color: #bf40bf;
+  margin-right: 10px;
+}
+
+.education-description {
+  margin-top: 32px;
+}
+.education-description p {
+  color: #bf40bf;
+}
+
+.language-description p {
+  color: #fff;
+}
+
+.language-description .percent {
+  height: 6px;
+  background-color: #7e047e;
+  margin-top: 5px;
+  width: 205px;
+}
+
+.language-description .percent div {
+  height: 6px;
+  background-color: #bf40bf;
+  margin-top: 5px;
+}
+
+.language-description .percent.english div {
+  width: 40%;
+}
+
+.language-description .percent.spanish div {
+  width: 35%;
+}
+
+.experiences-column {
+  background-color: #fff;
+  padding: 40px;
+  color: #000;
+}
+
+.experiences-column section {
+  margin-bottom: 30px;
+}
+
+.experiences-column h2 {
+  margin-bottom: 15px;
+}
+
+.experiences-column .experience {
+  margin-bottom: 14px;
+}
+
+.experiences-column .experience ul{
+  list-style: none;
+}
+
+.experiences-column a {
+  text-decoration: underline;
+  color: #000;
+}
+
+footer{
+  text-align: right;
+}
+
+@media (min-width: 992px) {
+  .container {
+    display: flex;
+  }
+}
+
+.information-column img{
+  width: 200px;
+  height: 200px;
+}
+.experience {
+  display: flex;
+}
+.experience-date{
+  width: 300px;
+}
