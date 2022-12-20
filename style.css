@@ -109,6 +109,7 @@
 .experiences-column a {
   text-decoration: underline;
   color: #000;
+  font-weight: bold;
 }
 
 footer{
@@ -131,3 +132,9 @@ footer{
 .experience-date{
   width: 300px;
 }
+
+.experience-date {
+  list-style-type: none;
+}
+  
+  
