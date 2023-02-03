@@ -1,4 +1,5 @@
 # 💻 Currículo Online
+
 Desenvolvi esse projeto incrível durante o curso StepOne, utilizando HTML e CSS 💻🎨
 
 Com ele, você pode ter um currículo online elegante e profissional, disponível para todo mundo ver! 🌍
@@ -9,7 +10,8 @@ Agora você pode apresentar seus projetos, habilidades e experiências de forma 
 
 Se você quer ter um currículo online perfeito, este é o projeto certo para você! 😎
 
-Vamos lá!
+## Vamos lá!
+
 Basta clonar o projeto e personalizar com suas informações pessoais e profissionais.
 
 Você vai se surpreender com o quanto é fácil e divertido criar seu currículo online! 🚀
