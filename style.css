@@ -26,18 +26,19 @@
 }
 
 .information-column > .myimage {
-  width: 200px;
-  height: 190px;
+  width: 170px;
+  height: 150px;
   border-radius: 50%;
   margin-bottom: 18px;
   border: 5px solid #bf40bf;
 }
 
-.information-column h3 {
+.information-column h3, .certifi, .habili-title {
   text-align: left;
   margin-top: 20px;
-  font-size: 1rem;
-}
+  font-size: 1.4rem;
+  color: #bf40bf;
+} 
 
 .information-column ul {
   list-style-type: none;
@@ -48,10 +49,10 @@
   margin: 10px 0;
 }
 
-.information-column, .habili-title{
+/* .information-column{
   margin: 10px 10px;
   font-size: 1rem;
-} 
+}  */
 .areaAtual{
   margin: 10px 10px;
   font-size: 0.90rem;
@@ -161,17 +162,45 @@ footer{
     border-radius: none;
 }
 
-.information-column h3 {
+
+
+.information-column p {
+  color: white;
+}
+.information-column{
+  
+  font-size: 1.5rem;
+} 
+.areaAtual{
+  margin: 10px 10px;
+  font-size: 1.5rem;
+}
+
+.information-column h3,.certifi, .habili-title {
   text-align: left;
   margin-top: 20px;
   font-size: 1.9rem;
+  color: #bf40bf;
+  text-align: left;
+}
+
+.experiences-column p {
+  font-size: 1.4rem;
+}
+.experiences-column h3 {
+  font-size: 1.5rem;
+}
+.experiences-column h4 {
+  font-size: 1.2rem;
 }
 
 .information-column > .myimage {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     border: 5px solid #bf40bf;
     margin-bottom: 18px;
 }
+
+
 }
