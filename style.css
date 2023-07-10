@@ -43,10 +43,14 @@
   margin: 10px 0;
 }
 
-.information-column > .areaAtual > .habili-title{
+.information-column, .habili-title{
   margin: 10px 10px;
-  font-size: 0.80rem;
+  font-size: 1rem;
 } 
+.areaAtual{
+  margin: 10px 10px;
+  font-size: 0.90rem;
+}
 
 .contact-description a {
   text-decoration: none;
