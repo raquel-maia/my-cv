@@ -8,7 +8,7 @@
 }
 
 .information-column {
-  padding: 40px;
+  padding: 50px;
   background-color: #000;
   color: #fff;
   text-align: center;
@@ -31,6 +31,7 @@
 .information-column h3 {
   text-align: left;
   margin-top: 20px;
+  font-size: 1.5rem;
 }
 
 .information-column ul {
@@ -41,6 +42,11 @@
   text-align: left;
   margin: 10px 0;
 }
+
+.information-column > .areaAtual > .habili-title{
+  margin: 10px 10px;
+  font-size: 1rem;
+} 
 
 .contact-description a {
   text-decoration: none;
@@ -119,22 +125,36 @@ footer{
 @media (min-width: 992px) {
   .container {
     display: flex;
+    height: 100%;
+    background-color: #000;
   }
 }
 
-.information-column img{
+.information-column img {
   width: 200px;
   height: 200px;
 }
+
+.information-column{
+  width: 50%;
+  height: 100%;
+  background-color: #000;
+  color: #fff;
+}
+
 .experience {
   display: flex;
 }
-.experience-date{
-  width: 300px;
+
+.experience-date {
+  width: 200px;
 }
 
 .experience-date a {
   text-decoration: none;
 }
-  
+
+.habili-description{
+  font-size: 1.5rem;
+}
   
