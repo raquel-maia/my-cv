@@ -20,7 +20,7 @@
   margin-top: 18px;
 }
 
-.information-column img {
+.information-column > .myimage {
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -132,33 +132,27 @@ footer{
     height: 100%;
     background-color: #000;
   }
-}
 
-.information-column img {
-  width: 200px;
-  height: 200px;
-}
-
-.information-column{
-  width: 50%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-}
-
-.experience {
+.code{
   display: flex;
+  
 }
 
-.experience-date {
-  width: 200px;
+.code img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    align-items: left;
 }
 
-.experience-date a {
-  text-decoration: none;
-}
+  .information-column {
+    width: 50%;
+    border-radius: none;
+  }
 
-.habili-description{
-  font-size: 1.5rem;
+  .information-column img {
+    width: 200px;
+    height: 200px;
+  }
 }
   
