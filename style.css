@@ -65,6 +65,10 @@
   color: #bf40bf;
 }
 
+.code img{
+  margin-top: 20px;
+}
+
 .language-description p {
   color: #fff;
 }
