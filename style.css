@@ -21,17 +21,16 @@
 }
 
 .information-column > .myimage {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 190px;
   border-radius: 50%;
-  border: 5px solid #bf40bf;
   margin-bottom: 18px;
 }
 
 .information-column h3 {
   text-align: left;
   margin-top: 20px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .information-column ul {
@@ -67,6 +66,7 @@
 
 .code img{
   margin-top: 20px;
+  width: 30%;
 }
 
 .language-description p {
@@ -127,32 +127,39 @@ footer{
 }
 
 @media (min-width: 992px) {
-  .container {
+.container {
     display: flex;
     height: 100%;
     background-color: #000;
-  }
+}
 
 .code{
   display: flex;
-  
+  width: auto;
 }
 
-.code img {
-    margin-top: 20px;
-    max-width: 100%;
-    height: auto;
-    align-items: left;
+.code img{
+  max-height: 100%;
+  width: 50%;
+
 }
 
-  .information-column {
+.information-column {
     width: 50%;
     border-radius: none;
-  }
-
-  .information-column img {
-    width: 200px;
-    height: 200px;
-  }
 }
-  
+
+.information-column h3 {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 1.9rem;
+}
+
+.information-column > .myimage {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #bf40bf;
+    margin-bottom: 18px;
+}
+}
