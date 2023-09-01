@@ -16,7 +16,5 @@ Basta clonar o projeto e personalizar com suas informações pessoais e profissi
 
 Você vai se surpreender com o quanto é fácil e divertido criar seu currículo online! 🚀
 
-## Veja o projeto final:
 
-![image](cv.png)
 
