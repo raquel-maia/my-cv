@@ -1,4 +1,4 @@
-# 💻 Currículo Online
+# 💻 Currículo Online 
 
 Desenvolvi esse projeto incrível durante o curso StepOne, utilizando HTML e CSS 💻🎨
 
@@ -15,6 +15,8 @@ Se você quer ter um currículo online perfeito, este é o projeto certo para vo
 Basta clonar o projeto e personalizar com suas informações pessoais e profissionais.
 
 Você vai se surpreender com o quanto é fácil e divertido criar seu currículo online! 🚀
+
+link do cv finalizado: https://raquel-maia.github.io/my-cv/
 
 
 
