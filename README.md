@@ -16,7 +16,7 @@ Basta clonar o projeto e personalizar com suas informações pessoais e profissi
 
 Você vai se surpreender com o quanto é fácil e divertido criar seu currículo online! 🚀
 
-link do cv finaizado: https://raquel-maia.github.io/my-cv/
+link do cv finalizado: https://raquel-maia.github.io/my-cv/
 
 
 
