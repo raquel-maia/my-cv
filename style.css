@@ -12,6 +12,7 @@
   background-color: #000;
   color: #fff;
   text-align: center;
+  font-size: 1rem;
 }
 
 .information-column hr {
@@ -25,6 +26,8 @@
   
 }
 
+
+
 .information-column > .myimage {
   width: 170px;
   height: 150px;
@@ -36,8 +39,8 @@
 .information-column h3, .certifi, .habili-title {
   text-align: left;
   margin-top: 20px;
-  font-size: 1.4rem;
   color: #bf40bf;
+  font-size: 0.70rem;
 } 
 
 .information-column ul {
@@ -55,21 +58,24 @@
 }  */
 .areaAtual{
   margin: 10px 10px;
-  font-size: 0.90rem;
+  font-size: 0.70rem;
 }
 
 .contact-description a {
   text-decoration: none;
   color: #fff;
+  font-size: 0.95rem;
 }
 
 .contact-description i {
   color: #bf40bf;
   margin-right: 10px;
+  font-size: 0.90rem;
 }
 
 .education-description {
   margin-top: 32px;
+  font-size: 0.95rem;
 }
 .education-description p {
   color: #bf40bf;
@@ -82,6 +88,11 @@
 
 .language-description p {
   color: #fff;
+  font-size: 0.70rem;
+}
+
+.title-name{
+  font-size: 1.5rem;
 }
 
 .language-description .percent {
@@ -110,6 +121,9 @@
   padding: 40px;
   color: #000;
 }
+h1{
+  font-size: 1.2rem;
+}
 
 .experiences-column section {
   margin-bottom: 30px;
@@ -133,6 +147,7 @@
   font-weight: bold;
 }
 
+
 .myimage{
    display: none;
 }
@@ -141,7 +156,7 @@ footer{
   text-align: right;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 996px) {
 .container {
     display: flex;
     height: 100%;
@@ -164,50 +179,50 @@ footer{
 }
 
 .information-column {
-    width: 50%;
+    width: 60%;
     border-radius: none;
 }
 
-
-
+.experiences-column{
+  width: 90%;
+}
+.localization{
+  font-size: 0.90rem;
+}
 .information-column p {
   color: white;
 }
 .information-column{
+  width: 60%;
   
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 } 
 .areaAtual{
   margin: 10px 10px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
+.title-name{
+  font-size: 2rem;
+}
 .information-column h3,.certifi, .habili-title {
   text-align: left;
   margin-top: 20px;
-  font-size: 1.9rem;
+  font-size: 1.2rem;
   color: #bf40bf;
   text-align: left;
 }
 
 .experiences-column p {
-  font-size: 1.4rem;
+  font-size: 0.90rem;
 }
 .experiences-column h3 {
-  font-size: 1.5rem;
-}
-.experiences-column h4 {
   font-size: 1.2rem;
 }
-
-.information-column > .myimage {
-  display: none;
-    width: 190px;
-    height: 200px;
-    border-radius: 50%;
-    border: 5px solid #bf40bf;
-    margin-bottom: 18px;
+.experiences-column h4 {
+  font-size: 1rem;
 }
+
 
 
 }
